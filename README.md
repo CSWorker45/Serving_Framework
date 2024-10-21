@@ -16,7 +16,7 @@ With all these steps completed, the necessary implementation for the new designs
 
 ## Sample Serving Traces
 Following `readme.md` from the folder `sample_requests_from_datasets` to sample requests to create a serving trace.
-The sampled requests are automatically saved into `./sampled_dataset/` folder.
+The sampled requests are automatically saved into `./sampled_datasets/` folder.
 
 ## Serving Simulation
 Use OPT-13B as an example. <br>
