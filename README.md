@@ -28,3 +28,5 @@ After the server side is set up, start the client side code to simulate the requ
 ```
 python gen_client_requests.py --model facebook/opt-13b --request-rate 3 --cv 1 --dataset sharegpt
 ```
+Here is an exemplar serving result:<br>
+<img width="360" alt="slo_result" src="https://github.com/user-attachments/assets/267b228d-e472-41a9-ad85-f320befde71d">
