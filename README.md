@@ -14,6 +14,10 @@ python additional_designs/mixed_cache_kernels/mixed_cache_setup.py build_ext --i
 ```
 With all these steps completed, the necessary implementation for the new designs has been integrated into vLLM and is ready for use.
 
+## Sample Serving Traces
+Following `readme.md` from the folder `sample_requests_from_datasets` to sample requests to create a serving trace.
+The sampled requests are automatically saved into `./sampled_dataset/` folder.
+
 ## Serving Simulation
 Use OPT-13B as an example. <br>
 Start the server side by:
