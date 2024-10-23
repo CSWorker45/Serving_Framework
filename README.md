@@ -3,7 +3,7 @@ The proposed serving framework is built on top of vLLM (release version: 0.5.0 p
 All the adds-on by the framework are located in the folder `additional_designs`.
 
 ## Getting Started
-1. Install the backbone system (vllm 0.5.0. post1) first. Following guidelines from https://github.com/vllm-project/vllm.
+1. Install the backbone system (vLLM 0.5.0. post1) first. Following guidelines from https://github.com/vllm-project/vllm.
 2. Insert the additional designs:
 ```
 bash additional_designs/insert_designs.sh
