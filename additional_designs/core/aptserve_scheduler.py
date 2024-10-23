@@ -690,7 +690,7 @@ class Scheduler:
             if running_urgency > waiting_urgency or len(scheduled_waiting) == 0:
                 #####decode#####
                 running_net_profits, n_blocks_list_running = \
-                self._process_running_queue(running_queue, _U_extra_, now, dummy_net_profit)
+                self._process_running_queue(running_queue, _U_extra, now, dummy_net_profit)
                 running_queue, num_change = \
                 self.greedy_selection_decode(running_queue, running_net_profits, \
                 n_blocks_list_running, num_tot_gpu_blocks)
