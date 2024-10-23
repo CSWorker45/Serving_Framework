@@ -255,6 +255,10 @@ class Sequence:
         return math.ceil(self.get_len() / self.block_size)
     
     @property
+    def n_blocks_upd(self) -> int:
+        return math.ceil((self.get_len()+1) / self.block_size)
+    
+    @property
     def prompt(self) -> Optional[str]:
         return self.inputs.get("prompt")
 
@@ -467,6 +471,9 @@ class SequenceGroup:
         self.use_hidden = True
         for key in self.seqs_dict.keys():
             self.seqs_dict[key].use_hidden = True
+    
+    def set_preempt(self):
+        self.require_preempt = True
     
     @property
     def multi_modal_data(self) -> Optional["MultiModalData"]:
