@@ -28,5 +28,11 @@ After the server side is set up, start the client side code to simulate the requ
 ```
 python gen_client_requests.py --model facebook/opt-13b --request-rate 3 --cv 1 --dataset sharegpt
 ```
-Here is an exemplar serving result:<br>
-<img width="360" alt="slo_result" src="https://github.com/user-attachments/assets/267b228d-e472-41a9-ad85-f320befde71d">
+
+## Exemplar Serving Result Comparsion
+Original vLLM:<br>
+<img width="357" alt="vllm_result" src="https://github.com/user-attachments/assets/81112082-8820-4baf-80b4-e2d90ecff7c3"> <br>
+Our new framework:<br>
+<img width="357" alt="aptserve_result" src="https://github.com/user-attachments/assets/d628c836-a866-41d8-8cb3-79d9a6125300">
+
+
